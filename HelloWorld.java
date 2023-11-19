@@ -7,6 +7,8 @@ public class HelloWorld {
      */
     public static void main(String[] args){
         System.out.println(getTheValue(args));
+        System.exit(0);
+
     }
 
     private static String getTheValue(String[] args){
