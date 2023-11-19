@@ -12,6 +12,10 @@ public class MyTestClass{
             tMap.put(key, value);
         }
 
+        /**
+         * @param key
+         * @return
+         */
         public String gatValueFromMap(String key){
             return (String)tMap.get(key);
         }
